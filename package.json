@@ -1,0 +1,21 @@
+{
+  "author": "Brandon R. Stoner <monokrome@limpidtech.com> (http://monokro.me)",
+  "name": "irccd",
+  "description": "An IRC \"client-daemon\" which lets you daemonize multiple IRC clients and publish their events to your desktop.",
+  "version": "0.0.1",
+  "homepage": "http://irccd.limpidtech.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LimpidTech/irccd.git"
+  },
+  "engines": {
+    "node": ">=v0.4.6"
+  },
+  "dependencies": {
+		"winston": ">=0.2.0",
+		"zeromq": ">=0.4.1",
+		"prefer": ">=0.0.41",
+		"irc": ">=0.2.0"
+	},
+  "devDependencies": {}
+}
